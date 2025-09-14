@@ -23,6 +23,7 @@ public class Semana13 {
         
         switch (option) {
             case (1):
+                System.out.print("estoy probando si se agregan los cambios ");
                 System.out.print("ingresa un producto: ");
                 double precio = sc.nextDouble();
                 tienda.agregarProducto(carrito, precio);
